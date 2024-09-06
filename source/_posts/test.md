@@ -1,5 +1,6 @@
 ---
 title: Test Blog
+mathjax: true
 ---
 
 ## 中文测试
@@ -9,6 +10,10 @@ title: Test Blog
 $$
 \displaystyle \sum_{i = 0}^{i = +\infty} \frac{1}{i}
 $$
+
+$\frac{1}{\pi}$
+
+$\frac{1}{\pi}$
 
 ## 代码块测试
 
