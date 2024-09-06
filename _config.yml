@@ -4,7 +4,7 @@
 
 # Site
 title: Study PlayGround
-subtitle: 'Zhang Zhang's Blog'
+subtitle: 'Zhang Zhang Blog'
 description: ''
 keywords:
 author: Zhang Zhang
@@ -101,4 +101,6 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/SuoRuGithub/SuoRuGithub.github.io
+  branch: gh-pages
