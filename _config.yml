@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Study PlayGround
+title: "Study PlayGround"
 subtitle: 'Zhang Zhang Blog'
 description: ''
 keywords:
@@ -101,6 +101,6 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: git
   repo: https://github.com/SuoRuGithub/SuoRuGithub.github.io
-  branch: gh-pages
+  branch: main
