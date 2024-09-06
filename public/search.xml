@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Test Blog</title>
+    <url>/2024/09/06/test/</url>
+    <content><![CDATA[<h2 id="中文测试"><a href="#中文测试" class="headerlink" title="中文测试"></a>中文测试</h2><h2 id="公式测试"><a href="#公式测试" class="headerlink" title="公式测试"></a>公式测试</h2><p>$$<br>\displaystyle \sum_{i &#x3D; 0}^{i &#x3D; +\infty} \frac{1}{i}<br>$$</p>
+<h2 id="代码块测试"><a href="#代码块测试" class="headerlink" title="代码块测试"></a>代码块测试</h2><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello!&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install Black-Myth</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="提示块测试"><a href="#提示块测试" class="headerlink" title="提示块测试"></a>提示块测试</h2><p>可以代替Obsidian的callout块</p>
+
+  <div class="note-large default">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-info"></i><p>信息</p>
+
+    </div>
+    <div class="notel-content">
+      <p>换行测试<br>换行测试<br>换行测试</p>
+
+    </div>
+  </div>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>提示</p>
+
+    </div>
+    <div class="notel-content">
+      <p>换行测试<br>换行测试<br>换行测试</p>
+
+    </div>
+  </div>
+
+  <div class="note-large red">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>自定义标题</p>
+
+    </div>
+    <div class="notel-content">
+      <p>换行测试<br>换行测试<br>换行测试</p>
+
+    </div>
+  </div>
+
+
+  <div class="note p-4 mb-4 rounded-small default">
+    <p>默认 提示块标签</p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small default">
+    <p>default 提示块标签</p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small primary">
+    <p>primary 提示块标签</p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small success">
+    <p>success 提示块标签</p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small info">
+    <p>info 提示块标签</p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small warning">
+    <p>warning 提示块标签</p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small danger">
+    <p>danger 提示块标签</p>
+
+  </div>
+
+  <div class="note p-4 mb-4 rounded-small red icon-padding">
+    <i class="note-icon fa-solid fa-bolt"></i><p>自定义提示块标签</p>
+
+  </div>
+
+<h2 id="图像测试"><a href="#图像测试" class="headerlink" title="图像测试"></a>图像测试</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/NanJing/NanJing.jpg"
+                      alt="test"
+                ></p>
+]]></content>
+  </entry>
+</search>

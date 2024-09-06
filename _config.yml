@@ -104,3 +104,12 @@ deploy:
   type: git
   repo: https://github.com/SuoRuGithub/SuoRuGithub.github.io
   branch: main
+
+mathjax:
+  tags: none
+  single_dollars: true
+  cjk_width: 0
+  normal_width: 0.6        # relative normal (monospace) width
+  append_css: true         # add CSS to every page
+  every_page: true         # use mathjax on every page, whenever mathjax setting is in front-matter
+  
