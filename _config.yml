@@ -98,6 +98,23 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: redefine
 
+# markdown_it_plus 语法渲染插件选项
+markdown_it_plus:
+    plugins:
+        # Obsidian Callouts
+        - plugin:
+            name: mdit-plugin-callouts
+            enable: true
+            options:
+        - plugin:
+            name: markdown-it-footnote
+            enable: true
+            options:
+        - plugin:
+            name: "@iktakahiro/markdown-it-katex"
+            enable: false
+            options:
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -108,7 +125,7 @@ deploy:
 mathjax:
   tags: none
   single_dollars: true
-  cjk_width: 0
+  cjk_width: 0.9
   normal_width: 0.6        # relative normal (monospace) width
   append_css: true         # add CSS to every page
   every_page: true         # use mathjax on every page, whenever mathjax setting is in front-matter
