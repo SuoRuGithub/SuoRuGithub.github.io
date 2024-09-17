@@ -42,8 +42,8 @@ $$
 $$
 \displaystyle 
 \begin{matrix} 
-    \space & k \\
-    T(n) = &  \overbrace{a(a(a\cdots a(T(\frac{n}{b^k})\cdots)))} \\
+     & k \\\\
+    T(n)= & \overbrace{a(a(a\cdots a(T(\frac{n}{b^k})\cdots)))} \\
 \end{matrix}
 $$
 
