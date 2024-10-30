@@ -3,6 +3,8 @@ title: 主定理
 tags: 
     - course notes
     - data structure
+categories:
+    - course notes
 date: 2024-09-17
 mathjax: true
 ---

@@ -189,19 +189,19 @@ navbar:
     Gallery:
         icon: fa-solid fa-image
         path: /masonry/
+    Categories: # 分类
+        icon: fa-solid fa-folder #图标
+        path: /categories/ #链接
     About: 
       icon: fa-regular fa-user
       submenus:
         Me: /about
         Github: https://github.com/SuoRuGithub
+        
   tags:
     Tags:
         icon: fa-solid fa-tags
         path: /tags/
-  categories:
-    Categories:
-        icon: fa-solid fa-folder
-        path: /categories/
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
@@ -436,7 +436,7 @@ page_templates:
   # Friend Links page column number
   friends_column: 2
   # Tags page style
-  tags_style: blur # blur, cloud
+  tags_style: cloud # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
