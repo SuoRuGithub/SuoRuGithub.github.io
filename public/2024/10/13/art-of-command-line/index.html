@@ -13,16 +13,20 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://SuoRuGithub.github.io/archives/2024/09/"/>
+    <link rel="canonical" href="http://SuoRuGithub.github.io/2024/10/13/art-of-command-line/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="website">
-<meta property="og:title" content="Study PlayGround">
-<meta property="og:url" content="http://suorugithub.github.io/archives/2024/09/index.html">
+        <meta name="description" content="本篇笔记属于accumulation的category下，用来积累一些使用命令行的技巧。 设置PYTHONPATH   什么是PYTHONPATH？   PYTHONPATH环境变量告诉Python去哪里寻找模块，所以当下次出现了找不到模块的问题，可以想想是否应该正确设置PYTHONPATH   在当前的环境中设置PYTHONPATH   1export PYTHONPATH&#x3D;&#x2F;path&#x2F;to&#x2F;m">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The art of command line">
+<meta property="og:url" content="http://suorugithub.github.io/2024/10/13/art-of-command-line/index.html">
 <meta property="og:site_name" content="Study PlayGround">
+<meta property="og:description" content="本篇笔记属于accumulation的category下，用来积累一些使用命令行的技巧。 设置PYTHONPATH   什么是PYTHONPATH？   PYTHONPATH环境变量告诉Python去哪里寻找模块，所以当下次出现了找不到模块的问题，可以想想是否应该正确设置PYTHONPATH   在当前的环境中设置PYTHONPATH   1export PYTHONPATH&#x3D;&#x2F;path&#x2F;to&#x2F;m">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-10-12T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-10-13T04:36:23.978Z">
 <meta property="article:author" content="Zhang Zhang">
 <meta name="twitter:card" content="summary">
     
@@ -36,7 +40,7 @@
     
     <title>
         
-            Archive: 2024/9 -
+            The art of command line -
         
         Khatru Playground
     </title>
@@ -282,7 +286,7 @@ mjx-container[display="true"] + br {
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active"
+                                <a class=""
                                    href="/archives"
                                         >
                                     <i class="fa-regular fa-archive fa-fw"></i>
@@ -410,7 +414,7 @@ mjx-container[display="true"] + br {
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
                            href="/archives"
                         >
                             <span>
@@ -534,71 +538,168 @@ mjx-container[display="true"] + br {
             <div class="main-content">
 
                 
-                    <div class="archive-container shadow-none hover:shadow-none sm:shadow-redefine sm:hover:shadow-redefine-hover">
-    
-<div class="archive-list-container">
-    
-        <section class="archive-item mb-spacing-unit last:mb-0">
-            <div class="archive-item-header flex flex-row items-center mb-2">
-                <span class="archive-year font-semibold text-3xl mr-2">2024</span>
-                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">4</span>
-            </div>
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
             
-            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
+                <div class="w-full flex items-center pt-6 justify-start">
+                    <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">The art of command line</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/avatar.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">Zhang Zhang</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-10-13</span>
+        <span class="mobile">2024-10-13</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-10-13 12:36:23</span>
+            <span class="mobile">2024-10-13 12:36:23</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
                 
-                    
-                    
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='10-30'>
-                    
-                    <a href="/2024/10/30/probability03/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">测度论</span>
-                    </a>
-                    
                 
-                    
                     
                         
-                            </li>
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='10-13'>
+                        <li>
+                            <a href="/categories/accumulation/">accumulation</a>&nbsp;
+                        </li>
                     
-                    <a href="/2024/10/13/art-of-command-line/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">The art of command line</span>
-                    </a>
                     
                 
-                    
-                    
-                        
-                            </li>
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='09-17'>
-                    
-                    <a href="/2024/09/17/hw1/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">主定理</span>
-                    </a>
-                    
-                
-                    
-                    
-                        
-                            </li>
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='09-06'>
-                    
-                    <a href="/2024/09/06/test/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">Test Blog</span>
-                    </a>
-                    
-                
-                </li> <!-- Ensure the last item is properly closed -->
             </ul>
-        </section>
+        </span>
+    
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <p>本篇笔记属于accumulation的category下，用来积累一些使用命令行的技巧。</p>
+<p><strong>设置<code>PYTHONPATH</code></strong></p>
+<ul>
+<li>
+<p>什么是<code>PYTHONPATH</code>？</p>
+</li>
+<li>
+<p><code>PYTHONPATH</code>环境变量告诉Python去哪里寻找模块，所以当下次出现了找不到模块的问题，可以想想是否应该正确设置<code>PYTHONPATH</code></p>
+</li>
+<li>
+<p>在当前的环境中设置<code>PYTHONPATH</code></p>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> PYTHONPATH=/path/to/module:<span class="variable">$PYTHONPATH</span>   // 这样可以将选择的路径添加到目前的PYTHONPATH而不是替代它</span><br></pre></td></tr></table></figure></div>
+<ul>
+<li>全局设置<code>PYTHONPATH</code></li>
+</ul>
+<p>将上述语句写入<code>~/.bashrc</code>或者<code>~/.zshrc</code>即可</p>
+<p>思考：上面的方法设置<code>PYTHONPATH</code>时，一个范围太小，另一个范围又太大。前者，每次我新建终端执行程序时都要进行<code>export</code>操作；后者，全局的<code>PYTHONPATH</code>都被更改。如果我只希望在指定的虚拟环境下，<code>PYTHONPATH</code>是指定路径呢？</p>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/10/30/probability03/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">测度论</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/09/17/hw1/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">主定理</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">The art of command line</div>
+        
+
+    </div>
 </div>
+        </div>
+    
+</div>
+
+
 
                 
 
@@ -685,6 +786,23 @@ mjx-container[display="true"] + br {
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">
