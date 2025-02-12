@@ -1,0 +1,9 @@
+# Hexo 生成的文件
+node_modules/
+public/
+.deploy_git/
+db.json
+
+# 日志文件
+*.log
+

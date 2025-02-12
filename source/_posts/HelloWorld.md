@@ -1,6 +1,7 @@
 ---
 title: Test Blog
 mathjax: true
+excerpt: "Hello world! 本文用于测试网站的显示功能"
 ---
 
 ## 中文测试
